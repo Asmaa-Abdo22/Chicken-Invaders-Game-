@@ -1,0 +1,25 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.379), rgba(0, 0, 0, 0.333)),
+    url("../imgs/image1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  cursor: none;
+  overflow: hidden;
+}
+.spaceship {
+  width: 6.25rem;
+}
+.chicken {
+  width: 5rem;
+  animation: chickenMove 0.5s infinite alternate;
+}
+@keyframes chickenMove {
+  0% {
+    transform: scale(0.93);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
